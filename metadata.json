@@ -1,0 +1,6 @@
+{
+  "name": "Mazmorra Infinita",
+  "description": "RPG de supervivencia infinita por salas y por turnos estilo D&D. Toda la lógica de dados d20, combates y progresión en código puro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

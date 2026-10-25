@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #09090b;
+    color: #e4e4e7;
+    font-family: system-ui, -apple-system, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow-x: hidden;
+  }
+}
+
+.font-medieval {
+  font-family: 'MedievalSharp', cursive, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-title {
+  font-family: 'Cinzel Decorative', 'Cinzel', serif;
+}
+
+/* Custom scrollbar for combat logs and inventory */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #18181b;
+}
+::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
+
+/* Text glow */
+.text-glow-amber {
+  text-shadow: 0 0 12px rgba(245, 158, 11, 0.45);
+}
+.text-glow-red {
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.45);
+}
+.text-glow-cyan {
+  text-shadow: 0 0 12px rgba(6, 182, 212, 0.45);
+}
