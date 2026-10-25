@@ -107,7 +107,7 @@ git branch -M main
 
 # 5. Conectar tu repositorio local con el repositorio remoto de GitHub
 # (Reemplaza TU_USUARIO y TU_REPOSITORIO con tus datos reales de GitHub)
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git remote add origin https://github.com/AnotherCreatorAnonymous/DnD.git
 
 # 6. Subir los archivos a GitHub
 git push -u origin main
@@ -124,7 +124,7 @@ Cualquier persona (o tú mismo desde otra computadora) puede descargar y ejecuta
 1. Abre tu terminal y ve a la carpeta donde quieras guardar el proyecto.
 2. Clona el repositorio con el siguiente comando (sustituye por la URL de tu repositorio):
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+   git clone https://github.com/AnotherCreatorAnonymous/DnD.git
    ```
 3. Entra en la carpeta descargada:
    ```bash
@@ -138,7 +138,7 @@ Cualquier persona (o tú mismo desde otra computadora) puede descargar y ejecuta
 
 #### Opción B: Descargar archivo ZIP directamente desde GitHub (Sin usar Git)
 
-1. Entra a la página de tu repositorio en GitHub desde tu navegador (`https://github.com/TU_USUARIO/TU_REPOSITORIO`).
+1. Entra a la página de tu repositorio en GitHub desde tu navegador (`https://github.com/AnotherCreatorAnonymous/DnD.git`).
 2. Haz clic en el botón verde **"Code"** (situado arriba a la derecha de la lista de archivos).
 3. Selecciona la opción **"Download ZIP"**.
 4. Descomprime el archivo `.zip` en tu computadora.
