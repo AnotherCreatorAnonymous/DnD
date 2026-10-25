@@ -113,11 +113,47 @@ git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
 git push -u origin main
 ```
 
+---
+
+### 5. Cómo Descargar o Clonar el Proyecto desde GitHub
+
+Cualquier persona (o tú mismo desde otra computadora) puede descargar y ejecutar el juego desde GitHub de dos maneras:
+
+#### Opción A: Mediante Git Clone (Recomendado)
+
+1. Abre tu terminal y ve a la carpeta donde quieras guardar el proyecto.
+2. Clona el repositorio con el siguiente comando (sustituye por la URL de tu repositorio):
+   ```bash
+   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+   ```
+3. Entra en la carpeta descargada:
+   ```bash
+   cd TU_REPOSITORIO
+   ```
+4. Instala las dependencias y arranca el juego:
+   ```bash
+   npm install
+   npm run dev
+   ```
+
+#### Opción B: Descargar archivo ZIP directamente desde GitHub (Sin usar Git)
+
+1. Entra a la página de tu repositorio en GitHub desde tu navegador (`https://github.com/TU_USUARIO/TU_REPOSITORIO`).
+2. Haz clic en el botón verde **"Code"** (situado arriba a la derecha de la lista de archivos).
+3. Selecciona la opción **"Download ZIP"**.
+4. Descomprime el archivo `.zip` en tu computadora.
+5. Abre tu terminal en esa carpeta descomprimida y ejecuta:
+   ```bash
+   npm install
+   npm run dev
+   ```
+6. Abre el navegador en `http://localhost:3000` (o la dirección indicada en consola) para jugar.
+
 > **Nota si usas autenticación con contraseña**: GitHub ahora requiere un **Personal Access Token (PAT)** o clave SSH en lugar de tu contraseña habitual al hacer `git push`. Puedes generarlo en GitHub en *Settings > Developer Settings > Personal access tokens*.
 
 ---
 
-### 5. Scripts Disponibles
+### 6. Scripts Disponibles
 
 - `npm run dev`: Inicia el servidor de desarrollo en local.
 - `npm run build`: Compila el proyecto optimizado para producción en la carpeta `dist/`.
@@ -126,7 +162,7 @@ git push -u origin main
 
 ---
 
-### 6. Estructura del Código
+### 7. Estructura del Código
 
 ```text
 ├── index.html                  # Plantilla HTML con fuentes medievales (Cinzel, MedievalSharp)
